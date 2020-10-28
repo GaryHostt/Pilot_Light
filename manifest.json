@@ -1,0 +1,25 @@
+  
+{
+    "tutorials": [
+        {
+            "title": "Oracle’s Cloud Platform: Pilot Light - App & DB",
+            "publisheddate": "09/03/2020",
+            "filename": "./introduction/introduction.md"
+        },
+        {
+            "title": "Lab 1: Setup your Environment",
+            "publisheddate": "09/03/2020",
+            "filename": "./lab-1/lab-1.md"
+        },
+        {
+            "title": "Lab 2: Configure Failover & Recovery Backups",
+            "publisheddate": "09/03/2020",
+            "filename": "./lab-2/lab-2.md"
+        },
+        {
+            "title": "Lab 3: Simulate Disaster",
+            "publisheddate": "09/03/2020",
+            "filename": "./lab-3/lab-3.md"
+        }
+     ]
+}
