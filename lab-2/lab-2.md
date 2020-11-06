@@ -137,7 +137,7 @@ And in your DR region, you should be able to see the backups there as well from 
 
 ![](./images/16.png " ")
 
-## **Step 4:**Verify the backups were generated ##
+## **Step 4:** Verify the backups were generated ##
 
 The terraform script configures a cron job on bastion server to run the python scripts which copies boot/block volumes and restores them across to DR region (default schedule is set for 12 hours).
 
