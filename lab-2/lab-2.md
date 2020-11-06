@@ -45,36 +45,36 @@ Estimated lab time: 1 hour
 
 ![](./images/2.png " ")
 
-From the OCI console, under networking go to the traffic steering policies.
+1. From the OCI console, under networking go to the traffic steering policies.
 
 ![](./images/3.png " ")
 
-Create a failover traffic steering policy.
+2. Create a failover traffic steering policy.
 
 ![](./images/4.png " ")
 
-This policy will point your DNS to your standby region's load balancer if your primary region's load balancer fails the health check. 
+3. This policy will point your DNS to your standby region's load balancer if your primary region's load balancer fails the health check. 
 
 ![](./images/5.png " ")
 
-You can get your load balancer IPs from Netowrking -> Load balancers. Make sure you are in the correct regions. 
+4. You can get your load balancer IPs from Netowrking -> Load balancers. Make sure you are in the correct regions. 
 
 ![](./images/6.png " ")
 
-You can see, we switch regions on the upper right to get the IP of the LB in the standby region, Frankfurt.
+5. You can see, we switch regions on the upper right to get the IP of the LB in the standby region, Frankfurt.
 
 ![](./images/7.png " ")
 
 ![](./images/8.png " ")
-Input the information like above. 
+6. Input the information like above. 
 ![](./images/9.png " ")
-Make sure to attach the health check to your primary region's load balancer, this is what determines if traffic should be re-directed to your standby region. 
+7. Make sure to attach the health check to your primary region's load balancer, this is what determines if traffic should be re-directed to your standby region. 
 
 ![](./images/10.png " ")
 
 ![](./images/11.png " ")
 
-This is a summary of your traffic steering policy.
+8. This is a summary of your traffic steering policy.
 
 ### Attach a subdomain to the DNS zone
 1.
