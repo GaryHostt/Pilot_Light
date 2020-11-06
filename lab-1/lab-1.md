@@ -145,7 +145,7 @@ shaded out on the page. You will not be able to configure.
 2.  Wait until the icon turns green.
     ![](./images/15.png)
 
-## Inputs
+### Inputs
 *The following inputs are required for terraform modules:*
 
 ```
@@ -197,7 +197,7 @@ Cron schedule for taking snapshots of file storage system in Primary region, thi
 data_sync_frequency
 Cron schedule for synchronizing the file storage system between both standby and primary region. The rsync job is run as part of this cron scheduler on the compute "dr_replication_server" in standby region. Example "*/30 * * * *" this runs every 30 minutes
 ```
-## Example of the results terraform will produce.
+### Example of the results terraform will produce.
  *Example: Instances in the Primary Region*
 
  ![](./screenshots/100screenshots/App-Server(Primary).PNG)
