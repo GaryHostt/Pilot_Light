@@ -43,49 +43,49 @@ Estimated lab time: 1 hour
 
 ## **Step 1:** DNS traffic steering
 
-![](./images/2.png " ")
+  ![](./images/2.png " ")
 
 1. From the OCI console, under networking go to the traffic steering policies.
 
-![](./images/3.png " ")
+  ![](./images/3.png " ")
 
 2. Create a failover traffic steering policy.
 
-![](./images/4.png " ")
+  ![](./images/4.png " ")
 
 3. This policy will point your DNS to your standby region's load balancer if your primary region's load balancer fails the health check. 
 
-![](./images/5.png " ")
+  ![](./images/5.png " ")
 
 4. You can get your load balancer IPs from Netowrking -> Load balancers. Make sure you are in the correct regions. 
 
-![](./images/6.png " ")
+  ![](./images/6.png " ")
 
 5. You can see, we switch regions on the upper right to get the IP of the LB in the standby region, Frankfurt.
 
-![](./images/7.png " ")
+  ![](./images/7.png " ")
 
-![](./images/8.png " ")
+  ![](./images/8.png " ")
 6. Input the information like above. 
-![](./images/9.png " ")
+  ![](./images/9.png " ")
 7. Make sure to attach the health check to your primary region's load balancer, this is what determines if traffic should be re-directed to your standby region. 
 
-![](./images/10.png " ")
+  ![](./images/10.png " ")
 
-![](./images/11.png " ")
+  ![](./images/11.png " ")
 
 8. This is a summary of your traffic steering policy.
 
 ### Attach a subdomain to the DNS zone
 1.
-![](./images/12.png " ")
+  ![](./images/12.png " ")
 
 2.
-![](./images/13.png " ")
+  ![](./images/13.png " ")
 
 3.Publish to finish attaching.
 
-![](./images/14.png " ")
+  ![](./images/14.png " ")
 
 ## **Step 2:** Block & boot volume backup automation with Python
 
@@ -119,7 +119,7 @@ Steps in the automation scripts:
 
 ### Run the scripts
 
-Below is the command to run each script.
+1. Below is the command to run each script.
 ```
 python block-volume-migration.py --compartment-id ocid1.compartment.oc1..123 --destination-region eu-frankfurt-1 --availability-domain AD-2
 ```
@@ -128,22 +128,22 @@ python block-volume-migration.py --compartment-id ocid1.compartment.oc1..123 --d
 python boot-volume-migration.py --compartment-id ocid1.compartment.oc1..aaaaanq --destination-region eu-frankfurt-1 --availability-domain AD-2
 ```
 
-Below you can see the volume backups now created in your source region, our's is London.
+2. Below you can see the volume backups now created in your source region, our's is London.
 
-![](./images/15.png " ")
+  ![](./images/15.png " ")
 
-And in your DR region, you should be able to see the backups there as well from your specified source region.
+3. And in your DR region, you should be able to see the backups there as well from your specified source region.
 
 
-![](./images/16.png " ")
+  ![](./images/16.png " ")
 
 ## **Step 4:** Verify the backups were generated ##
 
-The terraform script configures a cron job on bastion server to run the python scripts which copies boot/block volumes and restores them across to DR region (default schedule is set for 12 hours).
+1. The terraform script configures a cron job on bastion server to run the python scripts which copies boot/block volumes and restores them across to DR region (default schedule is set for 12 hours).
 
 **The previous manual step of running the scripts yourself means you do not have to reconfigure the scheduler with the instructions below to proceed in this lab.** 
 
-Navigate to OCI Console and verify that both boot volumes and block volumes are copied to DR region, in this case Frankfurt. You can tweak the cron scheduler on bastion server of Primary region using "crontab -e" for testing purposes or as needed.
+2. Navigate to OCI Console and verify that both boot volumes and block volumes are copied to DR region, in this case Frankfurt. You can tweak the cron scheduler on bastion server of Primary region using "crontab -e" for testing purposes or as needed.
 
 ### Attach copied volumes to DR region compute ###
 
@@ -183,14 +183,14 @@ Naviate to 'Attached Block Volumes" on OCI Console -> Compute -> select the comp
 
     Click attach block volume and select the restored block volume copied over through volume backup from source region, London.
     
-![](./images/19.png " ")
+  ![](./images/19.png " ")
     
     Select the device path "/dev/oracleoci/oraclevdb".
     
-![](./images/20.png " ")
+  ![](./images/20.png " ")
     
     
-![](./images/21.png " ")
+  ![](./images/21.png " ")
     
         [opc@test-backup-1 html]# sudo iscsiadm -m node -o new -T iqn.2015-12.com.oracleiaas:2cd86333-a034-416f-8606-bc4ac5332881 -p 169.254.2.2:3260
         New iSCSI node [tcp:[hw=,ip=,net_if=,iscsi_if=default] 169.254.2.2,3260,-1 iqn.2015-12.com.oracleiaas:2cd86333-a034-416f-8606-bc4ac5332881] added
@@ -212,17 +212,15 @@ Naviate to 'Attached Block Volumes" on OCI Console -> Compute -> select the comp
 6. Navigate to the backend set of the public load balancer add the newly created compute to the backend set.
 
 
-![](./images/22.png " ")
+  ![](./images/22.png " ")
     
 
-![](./images/23.png " ")
+  ![](./images/23.png " ")
     
 
-![](./images/24.png " ")
+  ![](./images/24.png " ")
 
 Verify the application is working as expected in the Frankfurt DR region by navigating to the load balancer url.
-
-
 
 ## **Step 5:** Object Storage Replication
 
