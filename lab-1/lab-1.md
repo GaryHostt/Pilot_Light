@@ -214,11 +214,11 @@ shaded out on the page. You will not be able to configure.
 ### Example of the results terraform will produce.
  1. *Example: Instances in the Primary Region*
 
-    ![](./images/23.png)
+    ![](./images/23.PNG)
  
  2. *Example: Database system in the Primary Region*
 
-    ![](./images/24.png)
+    ![](./images/24.PNG)
  
  3. *Example: Instance in the Secondary Region*
 
@@ -226,7 +226,7 @@ shaded out on the page. You will not be able to configure.
  
  4. *Example: Database system in the Secondary Region*
 
-    ![](./images/26.png)
+    ![](./images/26.PNG)
  
 ## **Step 2:** Create the DNS zone.
 
