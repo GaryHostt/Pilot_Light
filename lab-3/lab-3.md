@@ -61,13 +61,13 @@ Estimated lab time: 1 hour
 3. This [link](https://docs.cloud.oracle.com/en-us/iaas/Content/API/Concepts/sdkconfig.htm) example of a configuration file.
 
 4. *The script will not continue unitl the scaling is complete. Check the OCI console work request to see when the instance will be available again.*
-  ![](./images/9.png)
+  ![](./images/9.PNG)
 
 5. *The instance will be shutdown while the update takes place.*
-  ![](./images/10.png)
+  ![](./images/10.PNG)
 
 6. *You can now log into the instance again*
-  ![](./images/11.png)
+  ![](./images/11.PNG)
 
 ## Summary
 
