@@ -94,45 +94,57 @@ shaded out on the page. You will not be able to configure.
 ### Configuration 
 
 1.  Navigate to the resource manager tab in oci. Next upload the zip file to the stack.
+
     ![](./images/2.png)
     
 2.  Input the configuration for the instances.
+
     ![](./images/3.png)
 
 3.  Input the configuration for the vcn
+
     ![](./images/4.png)
     
 4.  Input the configuration for the load balancer and database
+
     ![](./images/5.png)
     
 5.  Input the configuration for the object storage.
+
     ![](./images/6.png)
     
 6.  Input the configuration for the keys. Since the keys are in the zip file. Make sure to put
     "./" in front of the keys names.
+    
     ![](./images/7.png)
     
     ### Review process
+    
     ![](./images/8.png)
     
     ### Plan
 
 
 1.  Select plan from the dropdown menu.
+
     ![](./images/9.png)
     
 2.  Make sure everything looks okay and then proceed
+
     ![](./images/10.png)
 
 3.  Wait until the icon turns green.
+
     ![](./images/11.png)
     
     ### Apply
     
 1.  Select apply from the dropdown menu. 
+
     ![](./images/12.png)
     
 2.  Wait until the icon turns green.
+
     ![](./images/13.png)
 
 
@@ -140,9 +152,11 @@ shaded out on the page. You will not be able to configure.
  If you want to delete the infrastructure.
     First navigate to OCI Console and terminate the Standby database and once the termination is successful then resource manager can be used to destroy the environment.
 1.  Select destroy from the dropdown menu. 
+
     ![](./images/14.png)
 
 2.  Wait until the icon turns green.
+
     ![](./images/15.png)
 
 ### Inputs
@@ -229,6 +243,7 @@ shaded out on the page. You will not be able to configure.
 You can place these HTML files in your app-tier compute nodes to demonstrate the DR working by displaying different HTML pages depending on which region you are hitting. You can see this information in the IP address as well, but this is additional visual stimulation.
 
 ### Primary Instance
+
 *Follow the instructions here*
     ```
     # Replace the text in index.html with the text from PRIMARY.html.
@@ -243,17 +258,21 @@ You can place these HTML files in your app-tier compute nodes to demonstrate the
     # After you have updated the index.html on there respected instances.
     # run the following command.
     # sudo systemctl restart httpd
-
     ```
 
 ### Create a Health Check
-1.![](./images/19.png)
 
-2.![](./images/20.png)
+1.
+    ![](./images/19.png)
 
-3.![](./images/21.png)
+2.
+    ![](./images/20.png)
 
-4.![](./images/22.png)
+3.
+    ![](./images/21.png)
+
+4.
+    ![](./images/22.png)
 
 You may now **proceed to the next lab**.
 
