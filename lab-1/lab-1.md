@@ -95,57 +95,57 @@ shaded out on the page. You will not be able to configure.
 
 1.  Navigate to the resource manager tab in oci. Next upload the zip file to the stack.
 
-    ![](./images/2.png)
+    ![](./images/2.PNG)
     
 2.  Input the configuration for the instances.
 
-    ![](./images/3.png)
+    ![](./images/3.PNG)
 
 3.  Input the configuration for the vcn
 
-    ![](./images/4.png)
+    ![](./images/4.PNG)
     
 4.  Input the configuration for the load balancer and database
 
-    ![](./images/5.png)
+    ![](./images/5.PNG)
     
 5.  Input the configuration for the object storage.
 
-    ![](./images/6.png)
+    ![](./images/6.PNG)
     
 6.  Input the configuration for the keys. Since the keys are in the zip file. Make sure to put
     "./" in front of the keys names.
     
-    ![](./images/7.png)
+    ![](./images/7.PNG)
     
     ### Review process
     
-    ![](./images/8.png)
+    ![](./images/8.PNG)
     
     ### Plan
 
 
 1.  Select plan from the dropdown menu.
 
-    ![](./images/9.png)
+    ![](./images/9.PNG)
     
 2.  Make sure everything looks okay and then proceed
 
-    ![](./images/10.png)
+    ![](./images/10.PNG)
 
 3.  Wait until the icon turns green.
 
-    ![](./images/11.png)
+    ![](./images/11.PNG)
     
     ### Apply
     
 1.  Select apply from the dropdown menu. 
 
-    ![](./images/12.png)
+    ![](./images/12.PNG)
     
 2.  Wait until the icon turns green.
 
-    ![](./images/13.png)
+    ![](./images/13.PNG)
 
 
 ### Destroy
@@ -153,11 +153,11 @@ shaded out on the page. You will not be able to configure.
     First navigate to OCI Console and terminate the Standby database and once the termination is successful then resource manager can be used to destroy the environment.
 1.  Select destroy from the dropdown menu. 
 
-    ![](./images/14.png)
+    ![](./images/14.PNG)
 
 2.  Wait until the icon turns green.
 
-    ![](./images/15.png)
+    ![](./images/15.PNG)
 
 ### Inputs
 *The following inputs are required for terraform modules:*
