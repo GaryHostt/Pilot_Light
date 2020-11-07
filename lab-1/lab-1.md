@@ -230,21 +230,21 @@ You can place these HTML files in your app-tier compute nodes to demonstrate the
 
 ### Primary Instance
 *Follow the instructions here*
-```
-# Replace the text in index.html with the text from PRIMARY.html.
-# sudo vi /var/www/html/index.html
+    ```
+    # Replace the text in index.html with the text from PRIMARY.html.
+    # sudo vi /var/www/html/index.html
 
-# Replace the text in index.html with the text from PRIMARY.html.
-# sudo vi /var/www/html/index.html
+    # Replace the text in index.html with the text from PRIMARY.html.
+    # sudo vi /var/www/html/index.html
 
-# Replace the text in index.html with the text from STANDBY.html.
-# sudo vi /var/www/html/index.html
+    # Replace the text in index.html with the text from STANDBY.html.
+    # sudo vi /var/www/html/index.html
 
-# After you have updated the index.html on there respected instances.
-# run the following command.
-# sudo systemctl restart httpd
+    # After you have updated the index.html on there respected instances.
+    # run the following command.
+    # sudo systemctl restart httpd
 
-```
+    ```
 
 ### Create a Health Check
 1.![](./images/19.png)
