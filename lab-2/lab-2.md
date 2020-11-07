@@ -152,11 +152,11 @@ On the OCI console, change to your specified DR region. Create a new compute ins
 1. Click "change image" and select boot volume.
 There select the restore boot volume copied over from the volume backup from the source region, London.
     
-![](./images/17.png " ")
+![](./images/17.PNG " ")
     
 2. Submit the instance to be created. 
     
-![](./images/18.png " ")
+![](./images/18.PNG " ")
 
 3. SSH into the newly created instance.
 
@@ -183,14 +183,14 @@ Naviate to 'Attached Block Volumes" on OCI Console -> Compute -> select the comp
 
     Click attach block volume and select the restored block volume copied over through volume backup from source region, London.
     
-  ![](./images/19.png " ")
+  ![](./images/19.PNG " ")
     
     Select the device path "/dev/oracleoci/oraclevdb".
     
-  ![](./images/20.png " ")
+  ![](./images/20.PNG " ")
     
     
-  ![](./images/21.png " ")
+  ![](./images/21.PNG " ")
     
         [opc@test-backup-1 html]# sudo iscsiadm -m node -o new -T iqn.2015-12.com.oracleiaas:2cd86333-a034-416f-8606-bc4ac5332881 -p 169.254.2.2:3260
         New iSCSI node [tcp:[hw=,ip=,net_if=,iscsi_if=default] 169.254.2.2,3260,-1 iqn.2015-12.com.oracleiaas:2cd86333-a034-416f-8606-bc4ac5332881] added
@@ -212,13 +212,13 @@ Naviate to 'Attached Block Volumes" on OCI Console -> Compute -> select the comp
 6. Navigate to the backend set of the public load balancer add the newly created compute to the backend set.
 
 
-  ![](./images/22.png " ")
+  ![](./images/22.PNG " ")
     
 
-  ![](./images/23.png " ")
+  ![](./images/23.PNG " ")
     
 
-  ![](./images/24.png " ")
+  ![](./images/24.PNG " ")
 
 Verify the application is working as expected in the Frankfurt DR region by navigating to the load balancer url.
 
