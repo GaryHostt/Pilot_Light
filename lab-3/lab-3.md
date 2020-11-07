@@ -23,25 +23,25 @@ Estimated lab time: 1 hour
 
 1. Navigate from the upper left hamburger menu to networking -> Load balancers. Find the Load Balancer in your primary region.
 
-![](./images/3.png)
+  ![](./images/3.png)
 
 2. Go to your backend set. 
 
-![](./images/4.png)
+  ![](./images/4.png)
 
 3. Check mark your backends. Then press actions.
 
-![](./images/5.png)
+  ![](./images/5.png)
 
 4. Set the drain state to True. This will stop all current connections and simulate the disaster. 
 
-![](./images/6.png)
+  ![](./images/6.png)
 
 5. Your health check on your primary region is now failing, and traffic hitting your DNS should now be routed to your DR region. 
-![](./images/7.png)
+  ![](./images/7.png)
 
 6. If you installed the HTML to your DR server, you should now see this. You can see our DNS entry - 'oci.life' with the subdomain 'alexmcdonald'.
-![](./images/8.png)
+  ![](./images/8.png)
 
 7. If you navigate to health/check traffic steering - you can see the health for the Primary region load balancer is now critical. If you visit the IP address of this load balancer, you will get 502 bad gateway. 
 
@@ -61,13 +61,13 @@ Estimated lab time: 1 hour
 3. This [link](https://docs.cloud.oracle.com/en-us/iaas/Content/API/Concepts/sdkconfig.htm) example of a configuration file.
 
 4. *The script will not continue unitl the scaling is complete. Check the OCI console work request to see when the instance will be available again.*
-![](./images/9.png)
+  ![](./images/9.png)
 
 5. *The instance will be shutdown while the update takes place.*
-![](./images/10.png)
+  ![](./images/10.png)
 
 6. *You can now log into the instance again*
-![](./images/11.png)
+  ![](./images/11.png)
 
 ## Summary
 
