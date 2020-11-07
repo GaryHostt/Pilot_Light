@@ -198,21 +198,21 @@ shaded out on the page. You will not be able to configure.
     Cron schedule for synchronizing the file storage system between both standby and primary region. The rsync job is run as part of this cron scheduler on the compute "dr_replication_server" in standby region. Example "*/30 * * * *" this runs every 30 minutes
     ```
 ### Example of the results terraform will produce.
- *Example: Instances in the Primary Region*
+ 1. *Example: Instances in the Primary Region*
 
- ![](./screenshots/100screenshots/App-Server(Primary).PNG)
+    ![](./images/23.png)
  
- *Example: Database system in the Primary Region*
+ 2. *Example: Database system in the Primary Region*
 
- ![](./screenshots/100screenshots/DB-System(Primary).PNG)
+    ![](./images/24.png)
  
- *Example: Instance in the Secondary Region*
+ 3. *Example: Instance in the Secondary Region*
 
- ![](./screenshots/100screenshots/App-Server(Secondary).png)
+    ![](./images/25.png)
  
- *Example: Database system in the Secondary Region*
+ 4. *Example: Database system in the Secondary Region*
 
- ![](./screenshots/100screenshots/DB-System(Secondary).PNG)
+    ![](./images/26.png)
  
 ## **Step 2:** Create the DNS zone.
 
