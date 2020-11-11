@@ -17,6 +17,10 @@ Estimated lab time: 1 hour
 - Perform DNS failover to DR region
 - Scale up compute node in DR region
 
+### Prerequisites
+
+* An Oracle Free Tier, Always Free, Paid or LiveLabs Cloud Account
+
 ## **STEP 1:** The Disaster
 
 ### Drain connections from Primary Region Load Balancer
