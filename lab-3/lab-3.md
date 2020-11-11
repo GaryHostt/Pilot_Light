@@ -15,7 +15,7 @@ Estimated lab time: 1 hour
 - Perform DNS failover to DR region
 - Scale up compute node in DR region
 
-## **Step 1:** The Disaster
+## **STEP 1:** The Disaster
 
 ### Drain connections from Primary Region Load Balancer
 
@@ -47,7 +47,7 @@ Estimated lab time: 1 hour
 
 8. Now, enter your DNS url in your web browswer, you should see the HTML indicating you are now seeing traffic steered to your standby region. 
 
-## **Step 2:** Scaling the standby region compute node
+## **STEP 2:** Scaling the standby region compute node
 
 ### Configure SDK
 
