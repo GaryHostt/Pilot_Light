@@ -20,13 +20,13 @@ Estimated Workshop Time: 3 hours
   - Setup DNS on OCI
   - Simulate disaster and subsequent recovery
   
-## Acknowledgements
-- **Last Updated by/Date** - Alex MacDonald, October 2020
-
 ## Learn More
 - [Traffic Management on OCI](https://www.oracle.com/a/ocom/docs/cloud/traffic-management-100.pdf)
 - [Block Volume Backups](https://docs.cloud.oracle.com/en-us/iaas/Content/Block/Concepts/blockvolumebackups.htm)
 - [Using Resource Manager](https://docs.cloud.oracle.com/en-us/iaas/Content/ResourceManager/Concepts/resourcemanager.htm)
+  
+## Acknowledgements
+- **Last Updated by/Date** - Alex MacDonald, October 2020
 
 ## Need Help?
 
