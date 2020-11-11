@@ -82,7 +82,7 @@ Estimated lab time: 1 hour
 -   To learn more about , how the OCI API scales up the compute node, here is the relevant [documentation](https://docs.cloud.oracle.com/en-us/iaas/api/#/en/iaas/20160918/datatypes/UpdateInstanceDetails).
 
 ## Acknowledgements
-- **Last Updated by/Date** - Alex MacDonald, October 2020
+- **Last Updated by/Date** - Alex MacDonald, November 2020
 
 ## See an issue?
 
