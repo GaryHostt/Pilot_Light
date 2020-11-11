@@ -22,11 +22,14 @@ Estimated lab time: 1 hour
   - Database DR is setup with data guard in the terraform scripts, but the next lab will show the manual configuration of dataguard
 
 ### Prerequisites
+
+- An Oracle Free Tier, Always Free, Paid or LiveLabs Cloud Account
+  
     -   Included Python scripts
+        ```
         - block-volume-migration.py
         - boot-volume-migration.py
         - located: 
-        ```
         .
     └── pilot-light
         ├── README.md
@@ -35,9 +38,8 @@ Estimated lab time: 1 hour
         │   │   ├── README.md
         │   │   ├── block-volume-migration.py
         │   │   ├── boot-volume-migration.py
-
-    
- 
+        ```
+        
 - Configure OCI SDK
 - Relevant IAM permissions in your tenancy to manage [DNS](https://docs.cloud.oracle.com/en-us/iaas/Content/Identity/Reference/dnspolicyreference.htm) & [block volumes](https://docs.cloud.oracle.com/en-us/iaas/Content/Identity/Reference/corepolicyreference.htm#Details_for_the_Core_Services)
 
