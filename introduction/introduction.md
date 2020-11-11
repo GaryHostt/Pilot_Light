@@ -19,6 +19,10 @@ Attached below is a sample architecture of the final solution:
   - Automate block volume backups to new region
   - Setup DNS on OCI
   - Simulate disaster and subsequent recovery
+
+### Prerequisites
+
+* An Oracle Free Tier, Always Free, Paid or LiveLabs Cloud Account
   
 ## Learn More
 - [Traffic Management on OCI](https://www.oracle.com/a/ocom/docs/cloud/traffic-management-100.pdf)
