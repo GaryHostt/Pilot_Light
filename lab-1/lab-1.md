@@ -20,7 +20,7 @@ Estimated lab time: 1 hour
 
 ### Prerequisites
 
-An Oracle Free Tier, Always Free, Paid or LiveLabs Cloud Account
+* An Oracle Free Tier, Always Free, Paid or LiveLabs Cloud Account
 
 ## **STEP 1:** Quickstart Deployment
 
