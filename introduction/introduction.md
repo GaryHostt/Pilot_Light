@@ -9,10 +9,10 @@
 
 This workshop will walk you through how to utilize disaster recovery best practices on Oracle Cloud Infrastructure. 
 
+Estimated Workshop Time: 3 hours
+
 Attached below is a sample architecture of the final solution:
 ![](./images/1.png)
-
-Estimated Workshop Time: 3 hours
 
 ### Objectives
 - Enable application & database DR across regions on OCI
