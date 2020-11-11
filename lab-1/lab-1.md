@@ -230,11 +230,16 @@ shaded out on the page. You will not be able to configure.
 ## **STEP 2:** Create the DNS zone.
 
 ### Create a new DNS zone
-1.
+1. Create the DNS Zone as Primary inside your designated DR compartment. 
+
     ![](./images/16.png)
-2.
+    
+2. Once your zone is created, click the highlighted blue text, what you named your zone. 
+
     ![](./images/17.png)
-3.
+    
+3. You can now see the details about your DNS Zone and its metadata. 
+
     ![](./images/18.png)
 
 ## **STEP 3:** Adding Html to the compute instances.
@@ -259,16 +264,20 @@ You can place these HTML files in your app-tier compute nodes to demonstrate the
 
 ### Create a Health Check
 
-1.
+1. To begin creating a health check, go to 'Monitoring' from the left menu and select 'Health Checks'
+
     ![](./images/19.png)
 
-2.
+2. Input the public IP address of the load balancer in your primary region. The health check will monitor that address on port 80 via HTTP.
+
     ![](./images/20.png)
 
-3.
+3. You can leave the path as '/'. The health check will monitor the endpoint by hitting it every 30 seconds. 
+
     ![](./images/21.png)
 
-4.
+4. Optionally, you can tag your health check for resource tracking in your tenancy.
+
     ![](./images/22.png)
 
 You may now **proceed to the next lab**.
