@@ -275,6 +275,7 @@ Verify the application is working as expected in the Frankfurt DR region by navi
 
 ## Acknowledgements
 - **Last Updated by/Date** - Alex MacDonald, November 2020
+- **Workshop Expiry Date** - November 30, 2021
 
 ## See an issue?
 
