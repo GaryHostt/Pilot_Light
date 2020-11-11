@@ -162,7 +162,6 @@ shaded out on the page. You will not be able to configure.
 ### Inputs
 *The following inputs are required for terraform modules:*
 
-    ```
     Argument
     Description
 
@@ -210,7 +209,7 @@ shaded out on the page. You will not be able to configure.
 
     data_sync_frequency
     Cron schedule for synchronizing the file storage system between both standby and primary region. The rsync job is run as part of this cron scheduler on the compute "dr_replication_server" in standby region. Example "*/30 * * * *" this runs every 30 minutes
-    ```
+
 ### Example of the results terraform will produce.
  1. *Example: Instances in the Primary Region*
 
