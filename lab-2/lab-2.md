@@ -26,19 +26,19 @@ Estimated lab time: 1 hour
 - An Oracle Free Tier, Always Free, Paid or LiveLabs Cloud Account
   
     -   Included Python scripts
-        ```
+    ```
         - block-volume-migration.py
         - boot-volume-migration.py
         - located: 
         .
-    └── pilot-light
+      └── pilot-light
         ├── README.md
         ├── assets
         │   ├── scripts
         │   │   ├── README.md
         │   │   ├── block-volume-migration.py
         │   │   ├── boot-volume-migration.py
-        ```
+    ```
         
 - Configure OCI SDK
 - Relevant IAM permissions in your tenancy to manage [DNS](https://docs.cloud.oracle.com/en-us/iaas/Content/Identity/Reference/dnspolicyreference.htm) & [block volumes](https://docs.cloud.oracle.com/en-us/iaas/Content/Identity/Reference/corepolicyreference.htm#Details_for_the_Core_Services)
