@@ -7,7 +7,7 @@ Disaster Recovery Network and connectivity setup
 
 This solution provides a Network Architecture deployment to demonstrate Disaster Recovery scenario across 2 regions [examples are geared towards region London & Frankfurt, but any regions in OCI can be used].
 
-Note: This is **not** configured for a product environment. **This is just for demo purposes.**
+Note: This is **not** configured for a production environment. **This is just for demo purposes.**
 
 Estimated lab time: 1 hour
 
