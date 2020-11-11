@@ -120,13 +120,13 @@ Steps in the automation scripts:
 ### Run the scripts
 
 1. Below is the command to run each script.
-```
-python block-volume-migration.py --compartment-id ocid1.compartment.oc1..123 --destination-region eu-frankfurt-1 --availability-domain AD-2
-```
+  ```
+  python block-volume-migration.py --compartment-id ocid1.compartment.oc1..123 --destination-region eu-frankfurt-1 --availability-domain AD-2
+  ```
 
-```
-python boot-volume-migration.py --compartment-id ocid1.compartment.oc1..aaaaanq --destination-region eu-frankfurt-1 --availability-domain AD-2
-```
+  ```
+  python boot-volume-migration.py --compartment-id ocid1.compartment.oc1..aaaaanq --destination-region eu-frankfurt-1 --availability-domain AD-2
+  ```
 
 2. Below you can see the volume backups now created in your source region, our's is London.
 
@@ -152,11 +152,11 @@ On the OCI console, change to your specified DR region. Create a new compute ins
 1. Click "change image" and select boot volume.
 There select the restore boot volume copied over from the volume backup from the source region, London.
     
-![](./images/17.PNG " ")
+  ![](./images/17.PNG " ")
     
 2. Submit the instance to be created. 
     
-![](./images/18.PNG " ")
+  ![](./images/18.PNG " ")
 
 3. SSH into the newly created instance.
 
