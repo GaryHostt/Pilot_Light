@@ -86,7 +86,7 @@ Estimated lab time: 1 hour
         ├── terraform.tfvars
         └── variables.tf
     
-## **Step 1:** Resource Manager
+## **STEP 1:** Resource Manager
 
 The following section will show you how to configure resource manager to make the deployment easier. Anything that is 
 shaded out on the page. You will not be able to configure.
@@ -228,7 +228,7 @@ shaded out on the page. You will not be able to configure.
 
     ![](./images/26.PNG)
  
-## **Step 2:** Create the DNS zone.
+## **STEP 2:** Create the DNS zone.
 
 ### Create a new DNS zone
 1.
@@ -238,7 +238,7 @@ shaded out on the page. You will not be able to configure.
 3.
     ![](./images/18.png)
 
-## **Step 3:** Adding Html to the compute instances.
+## **STEP 3:** Adding Html to the compute instances.
 
 You can place these HTML files in your app-tier compute nodes to demonstrate the DR working by displaying different HTML pages depending on which region you are hitting. You can see this information in the IP address as well, but this is additional visual stimulation.
 
