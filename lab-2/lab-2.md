@@ -77,13 +77,16 @@ Estimated lab time: 1 hour
 8. This is a summary of your traffic steering policy.
 
 ### Attach a subdomain to the DNS zone
-1.
+
+1. You can attach a subdomain to your previously created zone in lab-1. 
+
   ![](./images/12.png " ")
 
-2.
+2. The subdomain can vary, you can name it what you want.
+
   ![](./images/13.png " ")
 
-3.Publish to finish attaching.
+3. Publish to finish attaching the subdomain.
 
   ![](./images/14.png " ")
 
