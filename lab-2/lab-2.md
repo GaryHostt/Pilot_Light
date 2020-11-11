@@ -274,7 +274,7 @@ Verify the application is working as expected in the Frankfurt DR region by navi
 - [Active Data Guard](https://www.oracle.com/database/technologies/high-availability/dataguard.html)
 
 ## Acknowledgements
-- **Last Updated by/Date** - Alex MacDonald, October 2020
+- **Last Updated by/Date** - Alex MacDonald, November 2020
 
 ## See an issue?
 
