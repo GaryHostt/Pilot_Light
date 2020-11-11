@@ -2,8 +2,6 @@
 
 ## Introduction
 
-![](./images/1.png)
-
 Disaster Recovery Network and connectivity setup
 =======================================================
 
@@ -12,6 +10,8 @@ This solution provides a Network Architecture deployment to demonstrate Disaster
 Note: This is **not** configured for a product environment. **This is just for demo purposes.**
 
 Estimated lab time: 1 hour
+
+![](./images/1.png)
 
 ### Objectives
 - Use attached Terraform scripts to provision the environment
