@@ -8,6 +8,8 @@
 
 ## Introduction
 
+In this lab you will simulate the disaster and failover to your standby infrastructure that you configured in the previous labs. First the DNS will failover to your DR region and you will use the Python SDK to scale your compute in the DR region to handle the increased traffic. 
+
 Estimated lab time: 1 hour
 
 ### Objectives
