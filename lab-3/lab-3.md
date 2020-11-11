@@ -83,6 +83,7 @@ Estimated lab time: 1 hour
 
 ## Acknowledgements
 - **Last Updated by/Date** - Alex MacDonald, November 2020
+- **Workshop Expiry Date** - November 30, 2021
 
 ## See an issue?
 
