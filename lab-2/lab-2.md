@@ -5,13 +5,13 @@
 [Introduction](#introduction)
 -->
 
-![](./images/1.png " ")
-
 ## Introduction
 
 This lab walks you through how to automate your block and boot volumes backups to a new region. Should disaster strike your primary region, it is critical to have the backups elsewhere. Then you will configure the Traffic Management policy - in the event that your servers in the primary region are down, your DNS entry will re-route visitors to your servers in your DR region.
 
 Estimated lab time: 1 hour
+
+![](./images/1.png " ")
 
 ### Objectives
 - Configure DNS failover to DR region in traffic management
