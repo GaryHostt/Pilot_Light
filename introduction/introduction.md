@@ -26,7 +26,7 @@ Estimated Workshop Time: 3 hours
 - [Using Resource Manager](https://docs.cloud.oracle.com/en-us/iaas/Content/ResourceManager/Concepts/resourcemanager.htm)
   
 ## Acknowledgements
-- **Last Updated by/Date** - Alex MacDonald, October 2020
+- **Last Updated by/Date** - Alex MacDonald, November 2020
 
 ## Need Help?
 
