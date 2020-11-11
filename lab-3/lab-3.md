@@ -54,7 +54,7 @@ Estimated lab time: 1 hour
 1. Please follow steps in [lab200](https://github.com/arshyasharifian/DR_DNS/blob/master/LabGuide200.md) to configure the SDK for your python scripts to call resources in your tenancy.
 
 ### Run Python scripts
-1. [Download the python file](https://objectstorage.us-ashburn-1.oraclecloud.com/p/TzoBBbskjv2w4y_eN1wwKGG7wgVR2nh9jE4cetvMRqzqI1Kg5aB6_za3XWNCJ-AB/n/c4u03/b/data-management-library-files/o/Labapi.py). Just copy the python files to your bastion instance. Then move your API key to the `.oci` folder. Then edit the config file with the correct configurations.
+1. [Download the python file](https://objectstorage.us-ashburn-1.oraclecloud.com/p/cT_e-91q3vOplvaxy4wCmuLrCjEQQAf6P6LlNYa_1PO2pz2Sncbgk6fdF5srgN98/n/c4u03/b/data-management-library-files/o/Labapi.py). Just copy the python files to your bastion instance. Then move your API key to the `.oci` folder. Then edit the config file with the correct configurations.
 
 2. This [link](https://docs.cloud.oracle.com/en-us/iaas/Content/API/Concepts/apisigningkey.htm#Required_Keys_and_OCIDs) will help you setup the REST API key that python needs to run scaling script.
 
