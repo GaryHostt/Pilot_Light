@@ -287,6 +287,7 @@ You may now **proceed to the next lab**.
 
 ## Acknowledgements
 - **Last Updated by/Date** - Alex MacDonald, November 2020
+- **Workshop Expiry Date** - November 30, 2021
 
 ## See an issue?
 
