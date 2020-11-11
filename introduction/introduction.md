@@ -27,6 +27,7 @@ Attached below is a sample architecture of the final solution:
   
 ## Acknowledgements
 - **Last Updated by/Date** - Alex MacDonald, November 2020
+- **Workshop Expiry Date** - November 30, 2021
 
 ## Need Help?
 
